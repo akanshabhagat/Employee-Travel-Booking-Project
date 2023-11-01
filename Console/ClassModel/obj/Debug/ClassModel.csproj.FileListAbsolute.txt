@@ -1,0 +1,6 @@
+C:\Users\akanshab\Desktop\ClassDemo\C#\ClassModel\bin\Debug\ClassModel.dll
+C:\Users\akanshab\Desktop\ClassDemo\C#\ClassModel\bin\Debug\ClassModel.pdb
+C:\Users\akanshab\Desktop\ClassDemo\C#\ClassModel\obj\Debug\ClassModel.csproj.AssemblyReference.cache
+C:\Users\akanshab\Desktop\ClassDemo\C#\ClassModel\obj\Debug\ClassModel.csproj.CoreCompileInputs.cache
+C:\Users\akanshab\Desktop\ClassDemo\C#\ClassModel\obj\Debug\ClassModel.dll
+C:\Users\akanshab\Desktop\ClassDemo\C#\ClassModel\obj\Debug\ClassModel.pdb
