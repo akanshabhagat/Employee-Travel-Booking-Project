@@ -1,0 +1,11 @@
+C:\Users\akanshab\Desktop\ClassDemo\C#\ClassLibrary_BAL\obj\Debug\ClassLibrary_BAL.csproj.AssemblyReference.cache
+C:\Users\akanshab\Desktop\ClassDemo\C#\ClassLibrary_BAL\obj\Debug\ClassLibrary_BAL.csproj.CoreCompileInputs.cache
+C:\Users\akanshab\Desktop\ClassDemo\C#\ClassLibrary_BAL\bin\Debug\ClassLibrary_BAL.dll
+C:\Users\akanshab\Desktop\ClassDemo\C#\ClassLibrary_BAL\bin\Debug\ClassLibrary_BAL.pdb
+C:\Users\akanshab\Desktop\ClassDemo\C#\ClassLibrary_BAL\bin\Debug\ClassLibrary_DataAccessLayer.dll
+C:\Users\akanshab\Desktop\ClassDemo\C#\ClassLibrary_BAL\bin\Debug\ClassModel.dll
+C:\Users\akanshab\Desktop\ClassDemo\C#\ClassLibrary_BAL\bin\Debug\ClassLibrary_DataAccessLayer.pdb
+C:\Users\akanshab\Desktop\ClassDemo\C#\ClassLibrary_BAL\bin\Debug\ClassModel.pdb
+C:\Users\akanshab\Desktop\ClassDemo\C#\ClassLibrary_BAL\obj\Debug\ClassLibrary_BAL.csproj.CopyComplete
+C:\Users\akanshab\Desktop\ClassDemo\C#\ClassLibrary_BAL\obj\Debug\ClassLibrary_BAL.dll
+C:\Users\akanshab\Desktop\ClassDemo\C#\ClassLibrary_BAL\obj\Debug\ClassLibrary_BAL.pdb
