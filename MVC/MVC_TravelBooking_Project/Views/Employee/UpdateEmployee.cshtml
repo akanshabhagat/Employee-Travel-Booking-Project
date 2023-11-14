@@ -1,0 +1,41 @@
+﻿@model Employee
+
+<center><h2>Update Category </h2></center>
+<br />
+
+@{
+    if (Model != null)
+    {
+        <div>
+            <form method="post">
+                <div class="form-group">
+                    <label for="EmpFirstName">First Name:</label>
+                    <input asp-for="EmpFirstName" value=@Model.EmpFirstName class="form-control" name="EmpFirstName" />
+                </div>
+                <div class="form-group">
+                    <label for="EmpLastName">Last Name:</label>
+                    <input asp-for="EmpLastName" value=@Model.EmpLastName class="form-control" name="EmpLastName" />
+                </div>
+                <div class="form-group">
+                    <label for="EmpFirstName">DOB:</label>
+                    <input asp-for="EmpDob" type="datetime" value=@Model.EmpDob class="form-control" name="EmpDob" />
+                </div>
+            
+                <div class="form-group">
+                    <label for="EmpFirstName">Address:</label>
+                    <input asp-for="EmpAddress" value=@Model.EmpAddress class="form-control" name="EmpAddress" />
+                </div>
+    
+                <div class="form-group">
+                    <label for="EmpC">Contact:</label>
+                    <input asp-for="EmpContact" value=@Model.EmpContact class="form-control" name="EmpContact" />
+                </div>
+
+                <br/>
+                <div>
+                    <button class="btn btn-outline-success" type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    }
+}

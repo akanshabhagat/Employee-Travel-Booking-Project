@@ -1,0 +1,43 @@
+﻿@model TravelRequest
+
+<center><h2>Update Travel Request </h2></center>
+<br />
+
+@{
+    if (Model != null)
+    {
+        <div>
+            <form method="post">
+                <div class="form-group">
+                    <label for="RequestId">Request Id:</label>
+                    <input asp-for="RequestId" readonly value=@Model.RequestId class="form-control" name="RequestId" />
+                </div><br/>
+                <div class="form-group">
+                    <label for="EmpId">Employee Name:</label>
+                    <select asp-items=@ViewBag.Employees asp-for="EmpId">
+                        <option value="">Select Employee</option>
+                    </select>
+                </div><br/>
+          
+                <div class="form-group">
+                    <label for="LocFrom">From Location:</label>
+                    <input asp-for="LocFrom" value=@Model.LocFrom class="form-control" name="LocFrom" />
+                </div>
+                <div class="form-group">
+                    <label for="LocTo">To Location:</label>
+                    <input asp-for="LocTo" type="datetime" value=@Model.LocTo class="form-control" name="LocTo" />
+                </div>
+
+                <div class="form-group">
+                    <label for="ReqDate">Request Date:</label>
+                    <input asp-for="ReqDate" type="datetime" value=@Model.ReqDate class="form-control" name="ReqDate" />
+                </div>
+
+                <br />
+                <div>
+                    <button class="btn btn-outline-success" type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    }
+}

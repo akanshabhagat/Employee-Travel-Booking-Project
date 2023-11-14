@@ -1,0 +1,31 @@
+﻿@model TravelRequest
+
+<center><h2>Add New Travel Request</h2></center>
+<br />
+
+<div>
+    <form method="post">
+        <div class="form-group">
+            <label for="EmpId">Employee Id:</label>
+            <select asp-items=@ViewBag.Employees asp-for="EmpId">
+                <option value="">Select Employee</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="LocFrom">From Location:</label>
+            <input asp-for="LocFrom" class="form-control" name="LocFrom" />
+        </div>
+        <div class="form-group">
+            <label for="LocTo">To Location:</label>
+            <input asp-for="LocTo" class="form-control" name="LocTo" />
+        </div>
+        <div class="form-group">
+            <label for="ReqDate">Request Date:</label>
+            <input asp-for="ReqDate"  class="form-control" name="ReqDate" />
+        </div>
+        <br />
+        <div>
+            <button class="btn btn-outline-success" type="submit">Submit</button>
+        </div>
+    </form>
+</div>
