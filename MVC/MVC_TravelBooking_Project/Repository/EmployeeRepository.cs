@@ -31,6 +31,8 @@ namespace MVC_TravelBooking_Project.Repository
 
             if(e != null)
             {
+                TravelRequest travel_old = _context.TravelRequests.FirstOrDefault(x=>x.EmpId==id);
+                _context.TravelRequests.RemoveRange(travel_old);
                 _context.Employees.Remove(e);
                 _context.SaveChanges();
             }

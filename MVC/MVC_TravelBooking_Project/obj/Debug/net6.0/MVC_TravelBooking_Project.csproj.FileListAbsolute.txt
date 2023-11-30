@@ -66,3 +66,4 @@ C:\Employee Travel Booking Project\MVC\MVC_TravelBooking_Project\obj\Debug\net6.
 C:\Employee Travel Booking Project\MVC\MVC_TravelBooking_Project\obj\Debug\net6.0\MVC_TravelBooking_Project.pdb
 C:\Employee Travel Booking Project\MVC\MVC_TravelBooking_Project\obj\Debug\net6.0\MVC_TravelBooking_Project.genruntimeconfig.cache
 C:\Employee Travel Booking Project\MVC\MVC_TravelBooking_Project\obj\Debug\net6.0\ref\MVC_TravelBooking_Project.dll
+C:\Employee Travel Booking Project\MVC\MVC_TravelBooking_Project\obj\Debug\net6.0\MVC_TravelBooking_Project.sourcelink.json

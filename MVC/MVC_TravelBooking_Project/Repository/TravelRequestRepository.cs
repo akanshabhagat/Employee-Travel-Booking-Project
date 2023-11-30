@@ -33,6 +33,7 @@ namespace MVC_TravelBooking_Project.Repository
 
         public void DeleteTravelRequest(int id)
         {
+
             TravelRequest tr = _context.TravelRequests.FirstOrDefault(x=>x.RequestId == id);
 
             if(tr != null)

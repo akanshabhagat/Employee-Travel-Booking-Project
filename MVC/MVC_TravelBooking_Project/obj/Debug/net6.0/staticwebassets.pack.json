@@ -5,6 +5,34 @@
       "PackagePath": "staticwebassets\\MVC_TravelBooking_Project.bundle.scp.css"
     },
     {
+      "Id": "C:\\Employee Travel Booking Project\\MVC\\MVC_TravelBooking_Project\\wwwroot\\css\\image3.jpg",
+      "PackagePath": "staticwebassets\\css\\image3.jpg"
+    },
+    {
+      "Id": "C:\\Employee Travel Booking Project\\MVC\\MVC_TravelBooking_Project\\wwwroot\\css\\image4.jpg",
+      "PackagePath": "staticwebassets\\css\\image4.jpg"
+    },
+    {
+      "Id": "C:\\Employee Travel Booking Project\\MVC\\MVC_TravelBooking_Project\\wwwroot\\css\\image5.jpg",
+      "PackagePath": "staticwebassets\\css\\image5.jpg"
+    },
+    {
+      "Id": "C:\\Employee Travel Booking Project\\MVC\\MVC_TravelBooking_Project\\wwwroot\\css\\image6.jpg",
+      "PackagePath": "staticwebassets\\css\\image6.jpg"
+    },
+    {
+      "Id": "C:\\Employee Travel Booking Project\\MVC\\MVC_TravelBooking_Project\\wwwroot\\css\\img1.jpg",
+      "PackagePath": "staticwebassets\\css\\img1.jpg"
+    },
+    {
+      "Id": "C:\\Employee Travel Booking Project\\MVC\\MVC_TravelBooking_Project\\wwwroot\\css\\img2.jpg",
+      "PackagePath": "staticwebassets\\css\\img2.jpg"
+    },
+    {
+      "Id": "C:\\Employee Travel Booking Project\\MVC\\MVC_TravelBooking_Project\\wwwroot\\css\\img3.jpg",
+      "PackagePath": "staticwebassets\\css\\img3.jpg"
+    },
+    {
       "Id": "C:\\Employee Travel Booking Project\\MVC\\MVC_TravelBooking_Project\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

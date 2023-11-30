@@ -2,14 +2,14 @@
 <Center><h2>Travel Request List</h2></Center>
 
 <br />
-<button class="btn btn-outline-success"><a href="/TravelRequest/AddTravelRequest">Add New Travel Request</a></button>
+<button class="btn btn-success"><a href="/TravelRequest/AddTravelRequest">Add New Travel Request</a></button>
 <br />
 <br />
 
 @{
     @if (Model != null)
     {
-        <table class="table table-bordered table-sm table-striped">
+        <table class="table table-bordered-dark table-sm table-striped table-dark">
             <tr>
                 <td>Employee Id</td>
                 <td>Request Id</td>
@@ -40,21 +40,44 @@
                     <td>@c.BookingStatus</td>
                     <td>@c.CurrentStatus</td>
 
-                    <td>
-                        <button class="btn btn-outline-info">
-                            <a asp-action="UpdateTravelRequest" asp-route-id=@c.RequestId>Update</a>
-                        </button>
-                    </td>
-                    <td>
-                        <button class="btn btn-outline-danger">
-                            <a asp-action="DeleteTravelRequest" asp-route-id=@c.RequestId>Delete</a>
-                        </button>
-                    </td>
+                    @if(c.CurrentStatus != "Close")
+                    {
+                        <td>
+                            <button class="btn btn-success">
+                                <a asp-action="UpdateTravelRequest" asp-route-id=@c.RequestId>Update</a>
+                            </button>
+                        </td>
+                    }
+                    else
+                    {
+                        <td>
+                            <button class="btn btn-success">
+                                <a>Update</a>
+                            </button>
+                        </td>
+                    }
+
+                    @if (c.CurrentStatus != "Close")
+                    {
+                        <td>
+                            <button class="btn btn-danger">
+                                <a asp-action="DeleteTravelRequest" asp-route-id=@c.RequestId>Delete</a>
+                            </button>
+                        </td>
+                    }
+                    else
+                    {
+                        <td>
+                            <button class="btn btn-danger">
+                                <a>Delete</a>
+                            </button>
+                        </td>
+                    }
 
                     @if (c.ApprovalStatus == "Pending")
                     {
                         <td>
-                            <button class="btn btn-outline-info">
+                            <button class="btn btn-info">
                                 <a asp-action="ApproveTravelRequest" asp-route-id=@c.RequestId>Approve Request</a>
                             </button>
                         </td>
@@ -62,16 +85,18 @@
                     else
                     {
                         <td>
-                            <button class="btn btn-outline-info">
+                            <button class="btn btn-info">
                                 <a>Approve Request</a>
                             </button>
                         </td>
                     }
 
+
+
                     @if (c.BookingStatus == "Pending" && c.CurrentStatus == "Open")
                     {
                         <td>
-                            <button class="btn btn-outline-info">
+                            <button class="btn btn-info">
                                 <a asp-action="BookTravelRequest" asp-route-id=@c.RequestId>Book Request</a>
                             </button>
                         </td>
@@ -80,7 +105,7 @@
                     else if (c.CurrentStatus == "Close")
                     {
                         <td>
-                            <button class="btn btn-outline-info">
+                            <button class="btn btn-info">
                                 <a>Book Request</a>
                             </button>
                         </td>
@@ -88,7 +113,7 @@
                     else
                     {
                         <td>
-                            <button class="btn btn-outline-info">
+                            <button class="btn btn-info">
                                 <a>Book Request</a>
                             </button>
                         </td>

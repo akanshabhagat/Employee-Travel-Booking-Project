@@ -1,18 +1,35 @@
 html {
-  font-size: 14px;
+    font-size: 14px;
+    font-display: block;
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
-
-html {
-  position: relative;
-  min-height: 100%;
+    html {
+        font-size: 16px;
+    }
 }
 
 body {
-  margin-bottom: 60px;
+    background-image: url(img5.avif);
+    background-size: auto;
+    background-position: center;
+}
+
+.welcome-container {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.heading {
+    font-family: 'Your-Font-Family',sans-serif;
+    font-size: 36px;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 0px;
 }

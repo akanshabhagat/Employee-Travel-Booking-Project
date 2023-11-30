@@ -2,14 +2,14 @@
 <Center><h2>Employee List</h2></Center>
 
 <br />
-<button class="btn btn-outline-success"><a href="/Employee/AddEmployee">Add New Employee</a></button>
+<button class="btn btn-success"><a href="/Employee/AddEmployee">Add New Employee</a></button>
 <br />
 <br />
 
 @{
     @if (Model != null)
     {
-        <table class="table table-bordered table-sm table-striped">
+        <table class="table table-bordered table-sm table-striped table-dark">
             <tr>
                 <td>Employee Id</td>
                 <td>First Name</td>
@@ -34,12 +34,12 @@
                     
                     
                     <td>
-                        <button class="btn btn-outline-info">
+                        <button class="btn btn-info">
                             <a asp-action="UpdateEmployee" asp-route-id=@c.EmpId>Update</a>
                         </button>
                     </td>
                     <td>
-                        <button class="btn btn-outline-danger">
+                        <button class="btn btn-danger">
                             <a asp-action="DeleteEmployee" asp-route-id=@c.EmpId>Delete</a>
                         </button>
                     </td>

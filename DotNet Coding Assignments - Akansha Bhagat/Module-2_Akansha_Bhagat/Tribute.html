@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute to Lata Mangeshkar</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        p {
+            line-height: 1.6;
+            color: #666;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #333;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        input[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Tribute to A. P. J. Abdul Kalam</h1>
+    </header>
+    <main>
+        <img src="Apjimg.jpg" alt="A. P. J. Abdul Kalam">
+        <h2>A. P. J. Abdul Kalam</h2>
+        <p>
+            Dr. APJ Abdul Kalam is a famous name in the whole world. He is counted among the greatest scientists of the 21st century. Even more, he becomes the 11th president of India and served his country. He was the most valued person of the country as his contribution as a scientist and as a president is beyond compare. Apart from that, his contribution to the ISRO (Indian Space Research Organization) is remarkable. He headed many projects that contributed to the society also he was the one who helped in the development of Agni and Prithvi missiles. For his involvement in the Nuclear power in India, he was known as “Missile Man of India”. And due to his contribution to the country, the government awarded him with the highest civilian award.
+            Career and Contribution of APJ Abdul Kalam
+APJ Abdul Kalam was born in Tamil Nadu. At that time the financial condition of his family was poor so from an early age he started supporting his family financially. But he never gave up education. Along with supporting his family he continued his studies and completed graduation. Above all, he was a member of the Pokhran nuclear test conducted in 1998.
+
+There is a countless contribution of Dr.APJ Abdul Kalam to the country but he was most famous for his greatest contribution that is the development of missiles that goes by the name Agni and Prithvi.
+Presidency Period
+The great missile man becomes the President of India in 2002. During his presidency period, the army and country achieved many milestones that contributed a lot to the nation. He served the nation with an open heart that’s why he was called ‘people’s president’. But at the end of his term period, he was not satisfied with his work that’s why he wanted to be the President a second time but later on forfeited his name.
+
+Post-presidency Period
+After leaving the presidential office at the end of his term Dr. APJ Abdul Kalam again turn to his old passion which is teaching students. He worked for many renowned and prestigious institute of India located across the country. Above all, according to his the youth of the country is very talented but need the opportunity to prove their worth that’s why he supported them in their every good deed.
+
+Awards and Honors
+During his lifetime Dr. APJ Abdul Kalam was not only awarded and honored by Indian organization and committees but also by many international organizations and committees.
+
+Writings and Character
+During his lifetime, Dr. APJ Abdul Kalam wrote many books but his most notable work was ‘India 2020’ which have an action plan to make India a superpower.
+
+
+        </p>
+        <form id="tributeForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="message">Tribute Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <input type="submit" value="Submit Tribute">
+        </form>
+    </main>
+
+    <script>
+        // You can add JavaScript validation here
+        document.getElementById('tributeForm').addEventListener('submit', function (event) {
+            // Add your validation logic here
+            // Example: Check if the email is valid
+            var emailInput = document.getElementById('email');
+            if (!isValidEmail(emailInput.value)) {
+                alert('Please enter a valid email address.');
+                event.preventDefault(); // Prevent form submission
+            }
+        });
+
+        function isValidEmail(email) {
+            // Basic email validation regex
+            var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            return emailRegex.test(email);
+        }
+    </script>
+</body>
+
+</html>

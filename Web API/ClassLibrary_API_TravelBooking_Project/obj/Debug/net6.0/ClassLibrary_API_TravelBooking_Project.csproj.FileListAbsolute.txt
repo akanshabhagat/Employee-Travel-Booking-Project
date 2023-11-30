@@ -1,0 +1,12 @@
+C:\Employee Travel Booking Project\Web API\ClassLibrary_API_TravelBooking_Project\bin\Debug\net6.0\ClassLibrary_API_TravelBooking_Project.deps.json
+C:\Employee Travel Booking Project\Web API\ClassLibrary_API_TravelBooking_Project\bin\Debug\net6.0\ClassLibrary_API_TravelBooking_Project.dll
+C:\Employee Travel Booking Project\Web API\ClassLibrary_API_TravelBooking_Project\bin\Debug\net6.0\ClassLibrary_API_TravelBooking_Project.pdb
+C:\Employee Travel Booking Project\Web API\ClassLibrary_API_TravelBooking_Project\obj\Debug\net6.0\ClassLibrary_API_TravelBooking_Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Employee Travel Booking Project\Web API\ClassLibrary_API_TravelBooking_Project\obj\Debug\net6.0\ClassLibrary_API_TravelBooking_Project.AssemblyInfoInputs.cache
+C:\Employee Travel Booking Project\Web API\ClassLibrary_API_TravelBooking_Project\obj\Debug\net6.0\ClassLibrary_API_TravelBooking_Project.AssemblyInfo.cs
+C:\Employee Travel Booking Project\Web API\ClassLibrary_API_TravelBooking_Project\obj\Debug\net6.0\ClassLibrary_API_TravelBooking_Project.csproj.CoreCompileInputs.cache
+C:\Employee Travel Booking Project\Web API\ClassLibrary_API_TravelBooking_Project\obj\Debug\net6.0\ClassLibrary_API_TravelBooking_Project.sourcelink.json
+C:\Employee Travel Booking Project\Web API\ClassLibrary_API_TravelBooking_Project\obj\Debug\net6.0\ClassLibrary_API_TravelBooking_Project.dll
+C:\Employee Travel Booking Project\Web API\ClassLibrary_API_TravelBooking_Project\obj\Debug\net6.0\refint\ClassLibrary_API_TravelBooking_Project.dll
+C:\Employee Travel Booking Project\Web API\ClassLibrary_API_TravelBooking_Project\obj\Debug\net6.0\ClassLibrary_API_TravelBooking_Project.pdb
+C:\Employee Travel Booking Project\Web API\ClassLibrary_API_TravelBooking_Project\obj\Debug\net6.0\ref\ClassLibrary_API_TravelBooking_Project.dll

@@ -8,25 +8,35 @@
         <div class="form-group">
             <label for="EmpFirstName">First Name:</label>
             <input asp-for="EmpFirstName" class="form-control" name="EmpFirstName" />
+            <span asp-validation-for="EmpFirstName" style="color:red"></span>
         </div>
         <div class="form-group">
             <label for="EmpLastName">Last Name:</label>
             <input asp-for="EmpLastName" class="form-control" name="EmpLastName" />
+            <span asp-validation-for="EmpLastName" style="color:red"></span>
         </div>
         <div class="form-group">
             <label for="EmpDob">DOB:</label>
             <input asp-for="EmpDob" class="form-control" name="EmpDob" />
+            <span asp-validation-for="EmpDob" style="color:red"></span>
         </div>
         <div class="form-group">
             <label for="EmpAddress">Address:</label>
             <input asp-for="EmpAddress" class="form-control" name="EmpAddress" />
+            <span asp-validation-for="EmpAddress" style="color:red"></span>
         </div>
         <div class="form-group">
             <label for="EmpContact">Contact:</label>
             <input asp-for="EmpContact" class="form-control" name="EmpContact" />
+            <span asp-validation-for="EmpContact" style="color:red"></span>
         </div><br />
         <div>
             <button class="btn btn-outline-success" type="submit">Submit</button>
         </div>
     </form>
 </div>
+@section Scripts{
+    @{
+        Html.RenderPartial("_ValidationScriptsPartial");
+    }
+}
